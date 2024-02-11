@@ -1,0 +1,25 @@
+
+.logo_picture{
+    display: flex;
+    justify-content: center;
+}
+.logo_picture > img {
+    width: 500px;
+    height: 150px;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+}
+.picture > img {
+    object-fit: fill;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+}
+.post{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    display: flex;
+}
